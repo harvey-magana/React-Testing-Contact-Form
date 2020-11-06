@@ -33,7 +33,6 @@ test("renders all form inputs", async() => {
 
   //Assert: passes test if the element(s) exist in the component
   expect(firstNameInput).toBeInTheDocument();
-  expect(firstNameInput).toBe(3);
   expect(lastNameInput).toBeInTheDocument();
   expect(emailInput).toBeInTheDocument();
   expect(messageInput).toBeInTheDocument();
